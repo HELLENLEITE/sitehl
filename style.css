@@ -1,4 +1,45 @@
-body{
-    background-color: rgba(255, 61, 213, 0.596);
-    font-family: monospace;
+.esqcima{
+    background-color: rgb(241, 9, 9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+
+}
+.esqbaixo{
+    background-color: rgb(6, 170, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+
+}
+.dircima{
+    background-color: rgb(250, 229, 42);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+
+}
+.dirbaixo{
+    background-color: rgb(2, 69, 255);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+
+}
+.esqcima, .esqbaixo, .dirbaixo, .dircima{
+    width: 150px;
+    height: 150px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
